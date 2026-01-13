@@ -62,7 +62,7 @@ export function LandingPage() {
               <span className="text-primary">salud mental</span> cuando lo necesites
             </h1>
             <p className="text-lg text-muted-foreground">
-              Nada más urgente y primordial, psicología a través de videollamada desde cualquier lugar, más fácil que estar. 
+              Nada más urgente y primordial, psicología a través de videollamada desde cualquier lugar, más fácil que nunca. 
               Priorizamos tus dudas y te acompañamos en tu camino hacia el bienestar.
             </p>
             <div>
@@ -167,7 +167,7 @@ export function LandingPage() {
                   strokeWidth={2}
                   className="h-6 w-6 flex-shrink-0 text-primary"
                 />
-                <span>Soporte Integral y Continua</span>
+                <span>Soporte Integral y Continuo</span>
               </div>
             </div>
           </div>
@@ -289,7 +289,7 @@ export function LandingPage() {
               <CardContent>
                 <p className="text-sm text-muted-foreground">
                   La atención fue excepcional. Increíblemente 24/7 hacen que siempre 
-                  esté allí. Encontré la ayuda que necesitaba. Es que herramienta invaluable.
+                  esté allí. Encontré la ayuda que necesitaba. Es una herramienta invaluable.
                 </p>
               </CardContent>
             </Card>
@@ -327,7 +327,7 @@ export function LandingPage() {
                 <div className="mb-2 flex items-center gap-2">
                   <div className="h-10 w-10 rounded-full bg-muted" />
                   <div>
-                    <CardTitle className="text-sm">Carlos R.</CardTitle>
+                    <CardTitle className="text-sm">Laura S.</CardTitle>
                     <p className="text-xs text-muted-foreground">Su Paciente</p>
                   </div>
                 </div>
@@ -344,8 +344,8 @@ export function LandingPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  La atención fue excepcional. Increíblemente 24/7 hacen que siempre 
-                  esté allí. Encontré la ayuda que necesitaba. Es que herramienta invaluable.
+                  Plataforma intuitiva y profesionales muy capacitados. Me siento
+                  mucho mejor gracias al acompañamiento que recibí.
                 </p>
               </CardContent>
             </Card>
