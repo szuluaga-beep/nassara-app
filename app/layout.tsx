@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nassara - Modern Platform for Developers",
-  description: "Build amazing experiences with our modern platform. Fast, reliable, and designed for the future.",
+  title: "Nasara - Conéctate con especialistas en salud mental",
+  description: "Conéctate con un especialista en salud mental cuando lo necesites. Atención profesional a través de videollamada desde cualquier lugar.",
 };
 
 export default function RootLayout({
