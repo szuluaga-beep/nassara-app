@@ -211,7 +211,7 @@ export function LandingPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="flex justify-center">
-                <Button className="w-full sm:w-auto">Select</Button>
+                <Button className="w-full sm:w-auto">Seleccionar</Button>
               </CardContent>
             </Card>
 
@@ -227,7 +227,7 @@ export function LandingPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="flex justify-center">
-                <Button className="w-full sm:w-auto">Select</Button>
+                <Button className="w-full sm:w-auto">Seleccionar</Button>
               </CardContent>
             </Card>
 
@@ -243,7 +243,7 @@ export function LandingPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="flex justify-center">
-                <Button className="w-full sm:w-auto">Select</Button>
+                <Button className="w-full sm:w-auto">Seleccionar</Button>
               </CardContent>
             </Card>
           </div>
@@ -288,7 +288,7 @@ export function LandingPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  La atención fue excepcional. Increíblemente 24/7 hacen que siempre 
+                  La atención fue excepcional. La disponibilidad 24/7 hace que siempre 
                   esté allí. Encontré la ayuda que necesitaba. Es una herramienta invaluable.
                 </p>
               </CardContent>
@@ -373,7 +373,7 @@ export function LandingPage() {
               <CardContent>
                 <p className="text-sm text-muted-foreground">
                   Excelente servicio. La consulta fue muy útil desde casa. 
-                  Nunca había sido tan fácil acceder a esta tipo de servicios.
+                  Nunca había sido tan fácil acceder a este tipo de servicios.
                 </p>
               </CardContent>
             </Card>
