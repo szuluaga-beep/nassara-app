@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Project Structure
+
+This project follows the **Atomic Design** methodology for organizing components. For detailed information about the component structure, see [ATOMIC_DESIGN.md](./ATOMIC_DESIGN.md).
+
+```
+components/
+├── atoms/       # Basic UI elements (buttons, inputs, labels)
+├── molecules/   # Simple combinations of atoms (cards, fields, dialogs)
+├── organisms/   # Complex sections (headers, footers, forms)
+├── templates/   # Page layouts
+└── pages/       # Complete page views
+```
+
 ## Getting Started
 
 First, run the development server:
