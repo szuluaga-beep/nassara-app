@@ -1,0 +1,131 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Introduction/Atomic Design" />
+
+# Atomic Design en nassara-app
+
+Bienvenido a la documentación de componentes de **nassara-app**. Este proyecto sigue la metodología de **Atomic Design** para organizar y estructurar los componentes de UI de manera escalable y mantenible.
+
+## 🧬 ¿Qué es Atomic Design?
+
+Atomic Design es una metodología creada por Brad Frost que descompone las interfaces de usuario en componentes jerárquicos, similar a cómo los átomos se combinan para formar moléculas y organismos en química.
+
+## 📚 Jerarquía de Componentes
+
+### 🔹 Atoms (Átomos)
+Los átomos son los elementos más básicos e indivisibles de la interfaz.
+
+**Ejemplos en este proyecto:**
+- Button
+- Input
+- Label
+- Badge
+- Separator
+- Textarea
+
+**Características:**
+- No tienen dependencias de otros componentes
+- Altamente configurables mediante props
+- Corresponden a elementos HTML nativos mejorados
+- Son los bloques de construcción fundamentales
+
+### 🔸 Molecules (Moléculas)
+Las moléculas son grupos de átomos que trabajan juntos como una unidad.
+
+**Ejemplos en este proyecto:**
+- Card (combina título, descripción, contenido)
+- Field (combina label, input, descripción, error)
+- AlertDialog
+- DropdownMenu
+- Select
+
+**Características:**
+- Combinan múltiples átomos
+- Tienen una funcionalidad específica y coherente
+- Pueden tener estado interno simple
+- Reutilizables en diferentes contextos
+
+### 🔷 Organisms (Organismos)
+Los organismos son secciones complejas que combinan moléculas y átomos.
+
+**Ejemplos típicos:**
+- Header/Navbar completo
+- Footer con múltiples secciones
+- Formularios completos
+- Secciones de landing page
+
+**Características:**
+- Componentes complejos y específicos
+- Combinan múltiples moléculas y átomos
+- Pueden tener lógica de negocio
+- Forman secciones distintivas de la UI
+
+### 🔶 Templates (Plantillas)
+Las templates definen la estructura general de la página.
+
+**Ejemplos típicos:**
+- Layout principal
+- Layout de dashboard
+- Layout de autenticación
+
+**Características:**
+- Definen la estructura y el layout
+- Posicionan organismos en la página
+- No contienen contenido específico
+
+### 🟦 Pages (Páginas)
+Las páginas son instancias específicas de templates con contenido real.
+
+**Ejemplos en este proyecto:**
+- Landing Page
+- Component Examples
+
+**Características:**
+- Implementan templates específicas
+- Contienen datos y contenido real
+- Orquestan la lógica de página
+
+## 🔄 Flujo de Dependencias
+
+Las dependencias deben fluir en una sola dirección:
+
+```
+Atoms ← Molecules ← Organisms ← Templates ← Pages
+```
+
+**Reglas importantes:**
+- ✅ Los átomos NO deben importar otros componentes
+- ✅ Las moléculas SOLO pueden importar átomos
+- ✅ Los organismos pueden importar átomos y moléculas
+- ✅ Las templates pueden importar todos los niveles anteriores
+- ✅ Las páginas pueden importar todos los niveles
+- ❌ NUNCA importar en dirección inversa
+
+## 🎨 Cómo Navegar en Storybook
+
+1. **Sidebar izquierdo:** Navega por la jerarquía de componentes organizados por nivel (Atoms, Molecules, etc.)
+2. **Canvas:** Vista del componente en acción
+3. **Docs:** Documentación automática generada
+4. **Controls:** Panel interactivo para modificar props en tiempo real
+5. **Accessibility:** Verificación de accesibilidad con el addon A11y
+
+## 📖 Recursos
+
+Para más información:
+- [ATOMIC_DESIGN.md](https://github.com/szuluaga-beep/nassara-app/blob/main/ATOMIC_DESIGN.md) - Guía completa de Atomic Design
+- [STORYBOOK.md](https://github.com/szuluaga-beep/nassara-app/blob/main/STORYBOOK.md) - Guía de uso de Storybook
+- [Atomic Design por Brad Frost](https://atomicdesign.bradfrost.com/)
+
+## 🚀 Empezar a Desarrollar
+
+Para agregar un nuevo componente:
+
+1. Identifica el nivel correcto (Atom, Molecule, Organism, etc.)
+2. Crea el componente en el directorio apropiado
+3. Crea la historia (story) correspondiente
+4. Documenta las variantes y estados importantes
+5. Verifica la accesibilidad
+
+¡Explora los componentes en el sidebar para ver ejemplos!
+
+
