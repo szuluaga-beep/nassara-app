@@ -13,6 +13,35 @@ components/
 └── pages/       # Complete page views
 ```
 
+## Storybook
+
+This project uses **Storybook** for component development, documentation, and testing. Storybook provides an isolated environment to develop and showcase UI components following the Atomic Design methodology.
+
+### Running Storybook
+
+```bash
+# Start Storybook in development mode
+pnpm run storybook
+
+# Build Storybook for production
+pnpm run build-storybook
+```
+
+Storybook will be available at [http://localhost:6006](http://localhost:6006)
+
+### Documentation
+
+- **[STORYBOOK.md](./STORYBOOK.md)** - Complete guide on how to use Storybook and create component stories
+- **[ATOMIC_DESIGN.md](./ATOMIC_DESIGN.md)** - Detailed explanation of the Atomic Design structure
+
+### Features
+
+- 📚 Interactive component documentation
+- 🎨 Visual testing and development
+- ♿ Accessibility checks with a11y addon
+- 📖 Auto-generated documentation
+- 🎭 Multiple component variants and states
+
 ## Getting Started
 
 First, run the development server:
